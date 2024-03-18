@@ -86,17 +86,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/c/twctvnews/live)
         EOL
-        
-    - name: Get 公視13頻道.m3u8
-      run: |
-        touch ./公視13頻道.m3u8
-        sudo cat >./公視13頻道.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/c/ptslivestream/live)
-        EOL
-        
+      
     - name: Get 57東森財經新聞.m3u8
       run: |
         touch ./57東森財經新聞.m3u8
@@ -117,16 +107,7 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/c/%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E9%A0%BB%E9%81%93/live)
         EOL
         
-    - name: Get 公視戲劇.m3u8
-      run: |
-        touch ./公視戲劇.m3u8
-        sudo cat >./公視戲劇.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/c/%E5%85%AC%E8%A6%96/live)
-        EOL
-        
+
 #     - name: Get 我們這一家(卡通).m3u8
 #       run: |
 #         touch ./我們這一家(卡通).m3u8
@@ -168,24 +149,24 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCRi0sw4PDw-C2C7fS9hrx5Q/live)
         EOL
-    - name: Get 獅子家族.m3u8 #獅子家族
-      run: |
-        touch ./獅子家族.m3u8
-        sudo cat >./獅子家族.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/c/VexTrex/live)
-        EOL
-    - name: Get 獅子家族2.m3u8 #獅子家族_2
-      run: |
-        touch ./獅子家族2.m3u8
-        sudo cat >./獅子家族2.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCjNea6tkE7f0WHR50iNPf5A/live)
-        EOL
+#    - name: Get 獅子家族.m3u8 #獅子家族
+#      run: |
+#        touch ./獅子家族.m3u8
+#        sudo cat >./獅子家族.m3u8 <<EOL
+#        #EXTM3U
+#        #EXT-X-VERSION:3
+#        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#        $(yt-dlp --print urls https://www.youtube.com/c/VexTrex/live)
+#        EOL
+#    - name: Get 獅子家族2.m3u8 #獅子家族_2
+#      run: |
+#        touch ./獅子家族2.m3u8
+#        sudo cat >./獅子家族2.m3u8 <<EOL
+#        #EXTM3U
+#        #EXT-X-VERSION:3
+#        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#        $(yt-dlp --print urls https://www.youtube.com/channel/UCjNea6tkE7f0WHR50iNPf5A/live)
+#        EOL
 #     - name: Get MashaandtheBear.m3u8
 #       run: |
 #         touch ./MashaandtheBear.m3u8
