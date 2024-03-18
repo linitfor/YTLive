@@ -114,7 +114,6 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/c/%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E9%A0%BB%E9%81%93/live)
         EOL
-        
 
 #     - name: Get 我們這一家(卡通).m3u8
 #       run: |
@@ -145,6 +144,57 @@ jobs:
 #         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #         $(yt-dlp --print urls https://www.youtube.com/watch?v=VcC0EI2n86E)
 #         EOL
+
+#BGM頻道
+    - name: Get Cafe_Music_BGM_channel.m3u8
+      run: |
+        touch ./Cafe_Music_BGM_channel.m3u8
+        sudo cat >./Cafe_Music_BGM_channel.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@cafemusicbgmchannel/live)
+        EOL
+
+    - name: Get Hawaiian_BGM_channel.m3u8
+      run: |
+        touch ./Hawaiian_BGM_channel.m3u8
+        sudo cat >./Hawaiian_BGM_channel.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@hawaiianbgmchannel/live)
+        EOL
+
+    - name: Get Peaceful_Day_channel.m3u8
+      run: |
+        touch ./Peaceful_Day_channel.m3u8
+        sudo cat >./Peaceful_Day_channel.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=6R4FmpD9m2Q)
+        EOL
+
+    - name: Get Lofi_Girl_peaceful_piano_radio.m3u8
+      run: |
+        touch ./Lofi_Girl_peaceful_piano_radio.m3u8
+        sudo cat >./Lofi_Girl_peaceful_piano_radio.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=nWjC1RnLYbM)
+        EOL
+
+    - name: Get Lofi_Girl_lofi_hip_hop_radio.m3u8
+      run: |
+        touch ./Lofi_Girl_lofi_hip_hop_radio.m3u8
+        sudo cat >./Lofi_Girl_lofi_hip_hop_radio.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=jfKfPfyJRdk
+        EOL
 
 #卡通頻道
 
