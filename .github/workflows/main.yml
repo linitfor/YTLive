@@ -35,6 +35,15 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/live/2dfAzcDf8Zg?si=N2YSKLhtYu6sdRVe)
         EOL
 
+    - name: Get 民視新聞.m3u8
+      run: |
+        touch ./民視新聞.m3u8
+        sudo cat >./民視新聞.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ylYJSBUgaMA)
+        EOL
 
     - name: Get 三立新聞.m3u8
       run: |
@@ -55,7 +64,6 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/c/%E4%B8%89%E7%AB%8BLIVE%E6%96%B0%E8%81%9E/live)
         EOL
-        
         
     - name: Get 中天新聞.m3u8
       run: |
