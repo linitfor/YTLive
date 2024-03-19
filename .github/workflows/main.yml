@@ -115,6 +115,27 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/c/%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E9%A0%BB%E9%81%93/live)
         EOL
 
+                
+    - name: Get 豬哥會社.m3u8
+      run: |
+        touch ./豬哥會社.m3u8
+        sudo cat >./豬哥會社.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=htGDPsz2BYI)
+        EOL
+                
+    - name: Get 萬秀豬王.m3u8
+      run: |
+        touch ./萬秀豬王.m3u8
+        sudo cat >./萬秀豬王.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ADDSmXoPDY8)
+        EOL
+
 #     - name: Get 我們這一家(卡通).m3u8
 #       run: |
 #         touch ./我們這一家(卡通).m3u8
