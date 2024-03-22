@@ -134,7 +134,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/c/57%E6%9D%B1%E6%A3%AE%E8%B2%A1%E7%B6%93%E6%96%B0%E8%81%9E/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WHEPzbFA3hw)
         EOL
         
     - name: Get 寰宇新聞頻道.m3u8
