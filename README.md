@@ -1,6 +1,6 @@
 # YTLive
 
-2c * 更新時間: 
+更新時間: 
 
 ### To Do
  - [ ] Build News channel
