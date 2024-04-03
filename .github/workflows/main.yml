@@ -688,6 +688,7 @@ jobs:
       run: |
         git add -A
         ls -la
+        sed "2c * 更新時間: ${{ env.now_time }}" README.md -i
 
     - name: commit & push
       run: |
