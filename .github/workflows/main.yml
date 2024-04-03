@@ -688,9 +688,7 @@ jobs:
       run: |
         git add -A
         ls -la
-        now_time=$(date -u -d '+8 hour' '+%Y-%m-%d %H:%M:%S')
-        echo "now_time=$now_time"
-        sed "更新時間: ${{ env.now_time }}" README.md -i
+
 
     - name: commit & push
       run: |
