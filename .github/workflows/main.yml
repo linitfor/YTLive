@@ -1,7 +1,7 @@
 name: Get 獲取YouTube直播m3u8
 on:
   schedule:
-    - cron: '0 */3 * * *' #設定每3小時自動獲取
+    - cron: '0 0,3,6,9,12,15,18,21,23 * * *' #設定每3小時自動獲取
 
   pull_request:
     branches:
