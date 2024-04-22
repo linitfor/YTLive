@@ -229,14 +229,14 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@hawaiianbgmchannel/live)
         EOL
 
-    - name: Get Lofi_Girl_peaceful_piano_radio.m3u8
+    - name: Get starbucks_great_music.m3u8
       run: |
-        touch ./Lofi_Girl_peaceful_piano_radio.m3u8
-        sudo cat >./Lofi_Girl_peaceful_piano_radio.m3u8 <<EOL
+        touch ./starbucks_great_music.m3u8
+        sudo cat >./starbucks_great_music.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=nWjC1RnLYbM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=aXzL3YAriX8)
         EOL
 
     - name: Get Lofi_Girl_lofi_hip_hop_radio.m3u8
@@ -247,6 +247,16 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=jfKfPfyJRdk)
+        EOL
+
+    - name: Get Romantic_Night_Lounge.m3u8
+      run: |
+        touch ./Romantic_Night_Lounge.m3u8
+        sudo cat >./Romantic_Night_Lounge.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=2pUIn8V5dgQ)
         EOL
 
 #卡通頻道
