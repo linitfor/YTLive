@@ -32,7 +32,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/live/2dfAzcDf8Zg?si=N2YSKLhtYu6sdRVe)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=LuQ4S-i5zoE)
         EOL
 
     - name: Get 華視新聞.m3u8
