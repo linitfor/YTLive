@@ -694,6 +694,10 @@ jobs:
 #         $(yt-dlp --print urls https://www.youtube.com/c/FTVCP/live)
 #         EOL
 
+    - name: UpdateChannel Time 
+      run: |
+        echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S CST')" > UpdateTime
+
     - name: git add
       run: |
         git add -A
