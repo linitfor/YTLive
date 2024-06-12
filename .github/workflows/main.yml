@@ -42,7 +42,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=id0PXdWBH1g)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=wM0g8EoUZ_E)
         EOL
 
 
@@ -52,7 +52,7 @@ jobs:
         sudo cat >./民視新聞.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=ylYJSBUgaMA)
         EOL
 
@@ -62,7 +62,7 @@ jobs:
         sudo cat >./三立新聞.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/c/%E4%B8%89%E7%AB%8BLIVE%E6%96%B0%E8%81%9E/live)
         EOL
 
@@ -72,7 +72,7 @@ jobs:
         sudo cat >./三立Live.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=CKjSm5ZeehE)
         EOL
 
@@ -82,7 +82,7 @@ jobs:
         sudo cat >./三立Live+.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=oZdzzvxTfUY)
         EOL
         
@@ -93,7 +93,7 @@ jobs:
         sudo cat >./TVBS新聞.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=m_dhMSvUCIc)
         EOL
         
@@ -103,7 +103,7 @@ jobs:
         sudo cat >./中天新聞.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/c/ctitv/live)
         EOL
         
@@ -113,7 +113,7 @@ jobs:
         sudo cat >./台視新聞.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/c/ttvnewsview/live)
         EOL
         
@@ -123,7 +123,7 @@ jobs:
         sudo cat >./中視新聞.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/c/twctvnews/live)
         EOL
       
@@ -133,7 +133,7 @@ jobs:
         sudo cat >./東森財經新聞.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=WHEPzbFA3hw)
         EOL
         
@@ -143,7 +143,7 @@ jobs:
         sudo cat >./寰宇新聞頻道.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/c/%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E9%A0%BB%E9%81%93/live)
         EOL
 
@@ -154,7 +154,7 @@ jobs:
         sudo cat >./豬哥會社.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=htGDPsz2BYI)
         EOL
                 
@@ -164,13 +164,13 @@ jobs:
         sudo cat >./萬秀豬王.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=ADDSmXoPDY8)
         EOL
 
     - name: Get KTV必點男女對唱情歌台語最新單曲2024.m3u8
       run: |
-        touch ./KTV必點男女對唱情歌台語最新單曲2024.m3u8
+        touch ./KTV必點男女對唱情歌台語最新單曲2024.m3u8,RESOLUTION=1920x1080
         sudo cat >./KTV必點男女對唱情歌台語最新單曲2024.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
@@ -184,7 +184,7 @@ jobs:
 #         sudo cat >./我們這一家(卡通).m3u8 <<EOL
 #         #EXTM3U
 #         #EXT-X-VERSION:3
-#         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
 #         $(yt-dlp --print urls https://www.youtube.com/watch?v=U9VpeXil8u8)
 #         EOL
         
@@ -215,7 +215,7 @@ jobs:
         sudo cat >./Cafe_Music_BGM_channel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cafemusicbgmchannel/live)
         EOL
 
@@ -225,7 +225,7 @@ jobs:
         sudo cat >./Hawaiian_BGM_channel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@hawaiianbgmchannel/live)
         EOL
 
@@ -235,7 +235,7 @@ jobs:
         sudo cat >./starbucks_great_music.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=aXzL3YAriX8)
         EOL
 
@@ -245,7 +245,7 @@ jobs:
         sudo cat >./Lofi_Girl_lofi_hip_hop_radio.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=jfKfPfyJRdk)
         EOL
 
@@ -255,7 +255,7 @@ jobs:
         sudo cat >./Romantic_Night_Lounge.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=2pUIn8V5dgQ)
         EOL
 
