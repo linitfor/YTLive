@@ -32,7 +32,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=LuQ4S-i5zoE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=V1p33hqPrUk)
         EOL
 
     - name: Get 華視新聞.m3u8
@@ -114,7 +114,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=1920x1080
-        $(yt-dlp --print urls https://www.youtube.com/c/ttvnewsview/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=xL0ch83RAK8)
         EOL
         
     - name: Get 中視新聞.m3u8
